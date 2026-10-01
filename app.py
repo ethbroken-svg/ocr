@@ -11,7 +11,7 @@ st.title("🔧 Gujarati Plumbing Notes to Excel Converter")
 st.write("Upload your handwritten Gujarati plumbing note, and AI will convert it into a structured Excel file.")
 
 # 1. API Key Input (Securely input your Gemini API Key)
-api_key = st.text_input("Enter your Google Gemini API Key:", type="password")
+api_key = st.text_input("AQ.Ab8RN6KbZIPayRTZCMAXoPt0WdLOqov-cBD3nm7fBNTTelu2Hw", type="password")
 
 # 2. File Uploader Component
 uploaded_file = st.file_uploader("Choose an image of your notes...", type=["jpg", "jpeg", "png"])
